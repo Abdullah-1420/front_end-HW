@@ -1,0 +1,75 @@
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  padding: 0px 50px;
+}
+
+.header {
+  width: 100%;
+  height: 800px;
+  background-image: url("/HW1/images/soup.jpg");
+  background-size: cover;
+}
+
+.header p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 70px;
+}
+
+.intro{
+
+    padding: 80px 70px;
+    font-size: 25px;
+    color: rgb(151, 150, 150);
+    
+}
+
+.intro img{
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 0px);
+}
+
+
+ul{
+    list-style-type: " - ";
+}
+
+.Ingredients{
+    padding: 0px 70px;
+}
+.Ingredients img{
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 0px);
+}
+
+.Directions{
+    padding: 0px 70px;
+}
+
+
+ol li{
+    counter-increment: list;
+    line-height: 30px;
+    
+}
+
+ol li::marker{
+   content: counter(list) ") "; 
+}
