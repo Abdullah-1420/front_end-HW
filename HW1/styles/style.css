@@ -73,3 +73,19 @@ ol li{
 ol li::marker{
    content: counter(list) ") "; 
 }
+
+
+a:hover{
+  background-color: blue;
+  font-size: 20px;
+}
+
+a:visited{
+
+  color: rgb(223, 23, 23);
+}
+
+a:active{
+  
+  background: rgb(9, 224, 99);
+}
