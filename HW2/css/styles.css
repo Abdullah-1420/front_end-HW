@@ -680,6 +680,11 @@ progress {
   grid-gap: 10px 20px;
 
 }
+
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
 .row > * {
   flex-shrink: 0;
   width: 100%;
