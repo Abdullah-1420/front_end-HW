@@ -681,7 +681,7 @@ progress {
 
 }
 
-.img-fluid{
+.responsive {
   width: 100%;
   height: auto;
 }
