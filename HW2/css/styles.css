@@ -10,6 +10,11 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ 
+ 
+
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -641,9 +646,9 @@ progress {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 676px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: 640px;
   }
 }
 @media (min-width: 768px) {
@@ -675,7 +680,7 @@ progress {
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x)); */
   display: grid;
-  grid-template-columns: auto auto auto auto ;
+  grid-template-columns: auto auto  ;
   grid-template-rows: auto auto;
   grid-gap: 10px 20px;
 
@@ -904,7 +909,10 @@ progress {
 
 @media (min-width: 576px) {
   .col-sm {
-    flex: 1 0 0%;
+    flex: 1 0 0%;}
+  .row{
+grid-template-columns: auto auto auto auto;
+    }
   }
 
   .row-cols-sm-auto > * {
@@ -1114,7 +1122,7 @@ progress {
 .gy-sm-5 {
     --bs-gutter-y: 3rem;
   }
-}
+
 @media (min-width: 768px) {
   .col-md {
     flex: 1 0 0%;
